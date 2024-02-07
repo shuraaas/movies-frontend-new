@@ -1,0 +1,34 @@
+.profile {
+  height: calc(100vh - 220px);
+  padding: 75px max(30px, (100% - 410px) / 2) 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.profile__message {
+  font-size: 13px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 0;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .profile {
+    padding-top: 237px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .profile {
+    padding-top: 71px;
+  }
+}

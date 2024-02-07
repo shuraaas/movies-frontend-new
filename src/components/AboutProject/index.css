@@ -1,0 +1,131 @@
+.about-project {
+  background: #202020;
+  padding: 88px max(30px, (100% - 1140px) / 2) 100px;
+}
+
+.about-project__info {
+  padding: 71px 0 110px;
+  display: flex;
+  gap: 52px;
+}
+
+.about-project__info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.about-project__info-head {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  color: #FFF;
+}
+
+.about-project__info-text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #FFF;
+}
+
+.about-project__table {
+  display: grid;
+  grid-template-columns: 228px 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5px;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+
+.about-project__table-head {
+  margin: 0;
+  padding: 10px 0;
+  background: #303030;
+  color: #fff;
+}
+
+.about-project__table-head_active {
+  background: #3DDC84;
+  color: #000;
+}
+
+.about-project__table-text {
+  margin: 0;
+  line-height: 17px;
+  color: #8B8B8B;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .about-project {
+    padding: 69px max(50px, (100% - 1140px) / 2) 81px;
+  }
+
+  .about-project__info {
+    padding-top: 70px;
+    padding-bottom: 94px;
+    gap: 38px;
+  }
+
+  .about-project__info-item {
+    gap: 20px;
+  }
+
+  .about-project__info-head {
+    line-height: 24px;
+  }
+
+  .about-project__info-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about-project__table {
+    grid-template-columns: 140px 1fr;
+    row-gap: 3px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-project {
+    padding: 43px 18px 100px;
+  }
+
+  .about-project__info-head {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.71px;
+  }
+
+  .about-project__info-text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__info {
+    padding: 61px 0;
+    flex-direction: column;
+    gap: 57px;
+  }
+
+  .about-project__info-item {
+    gap: 15px;
+  }
+
+  .about-project__table {
+    grid-template-columns: 100px 1fr;
+    gap: 0;
+  }
+
+  .about-project__table-head {
+    font-size: 11px;
+  }
+
+  .about-project__table-text {
+    font-size: 11px;
+  }
+}

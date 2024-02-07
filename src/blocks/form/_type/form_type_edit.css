@@ -1,0 +1,15 @@
+.form_type_edit {
+  padding: 107px 0 18px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .form_type_edit {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .form_type_edit {
+    padding-top: 64px;
+  }
+}

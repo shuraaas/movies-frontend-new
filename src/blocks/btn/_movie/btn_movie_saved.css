@@ -1,0 +1,5 @@
+.btn_movie_saved {
+  width: 30px;
+  height: 30px;
+  background: url('../../../images/MoviesCard/saved.png') no-repeat center;
+}

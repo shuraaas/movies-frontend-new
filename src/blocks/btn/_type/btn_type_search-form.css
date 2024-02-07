@@ -1,0 +1,15 @@
+.btn_type_search-form {
+  padding: 0 17px;
+  height: 44px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  background: #4285F4;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.btn_type_search-form:disabled {
+  opacity: .5;
+  cursor: default;
+}

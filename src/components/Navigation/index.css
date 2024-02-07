@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__link {
+  display: block;
+  border-radius: 3px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #fff;
+  transition: opacity .3s ease-in-out;
+}
+
+.nav__link:hover {
+  opacity: .8;
+}
+
+.nav__link_type_promo-active {
+  background: #3DDC84;
+  color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav {
+    gap: 3px;
+  }
+
+  .nav__link {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+}

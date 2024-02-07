@@ -1,0 +1,9 @@
+.form__field {
+  position: relative;
+  
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  color: #8B8B8B;
+}

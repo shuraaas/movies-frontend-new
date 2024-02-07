@@ -1,0 +1,5 @@
+.btn_movie_unsaved {
+  width: 30px;
+  height: 30px;
+  background: url('../../../images/MoviesCard/unsaved.png') no-repeat center;
+}

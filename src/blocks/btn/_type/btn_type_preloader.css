@@ -1,0 +1,14 @@
+.btn_type_preloader {
+  padding: 10px 146px;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .btn_type_preloader {
+    padding: 10px 107px;
+  }
+}

@@ -1,0 +1,24 @@
+.btn_type_edit {
+  padding: 205px 0 0;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn_type_edit:disabled {
+  opacity: .5;
+  cursor: default;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .btn_type_edit {
+    padding-top: 196px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .btn_type_edit {
+    padding: 365px 0 0;
+    font-size: 12px;
+  }
+}

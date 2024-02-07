@@ -1,0 +1,12 @@
+.btn_type_logout {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ee3465;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .btn_type_logout {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}

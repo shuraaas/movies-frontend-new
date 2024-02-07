@@ -1,0 +1,32 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./blocks/page/page.css);
+
+@import url(./blocks/link/link.css);
+
+@import url(./blocks/btn/btn.css);
+@import url(./blocks/btn/_movie/btn_movie_save.css);
+@import url(./blocks/btn/_movie/btn_movie_saved.css);
+@import url(./blocks/btn/_movie/btn_movie_unsaved.css);
+@import url(./blocks/btn/_type/btn_type_edit.css);
+@import url(./blocks/btn/_type/btn_type_logout.css);
+@import url(./blocks/btn/_type/btn_type_auth.css);
+@import url(./blocks/btn/_type/btn_type_promo.css);
+@import url(./blocks/btn/_type/btn_type_search-form.css);
+@import url(./blocks/btn/_type/btn_type_preloader.css);
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/_type/form_type_edit.css);
+@import url(./blocks/form/__content/form__content.css);
+@import url(./blocks/form/__content/_type/form__content_type_register.css);
+@import url(./blocks/form/__content/_type/form__content_type_login.css);
+@import url(./blocks/form/__content/_type/form__content_type_profile.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__input/_type/form__input_type_profile.css);
+@import url(./blocks/form/__input-error/form__input-error.css);
+@import url(./blocks/form/__field/form__field.css);
+@import url(./blocks/form/__field/_type/form__field_type_profile.css);
+@import url(./blocks/form/__message/form__message.css);
+
+@import url(./blocks/section-title/section-title.css);

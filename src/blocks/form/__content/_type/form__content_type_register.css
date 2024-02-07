@@ -1,0 +1,9 @@
+.form__content_type_register {
+  padding: 0 0 153px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .form__content_type_register {
+    padding: 0 0 223px;
+  }
+}

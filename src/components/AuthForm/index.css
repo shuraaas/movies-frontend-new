@@ -1,0 +1,67 @@
+.auth {
+  height: calc(100vh - 140px);
+  padding: 70px max(30px, (100% - 396px) / 2);
+}
+
+.auth__logo {
+  display: block;
+  width: 38px;
+  height: 38px;
+  background: url('../../images/AuthForm/auth-logo.png') no-repeat center;
+}
+
+.auth__description {
+  margin: 0;
+  padding: 41px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.auth__signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding-top: 18px;
+}
+
+.auth__login {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.auth__login-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4285f4;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .auth {
+    height: 100%;
+    padding: 56px max(30px, (100% - 396px) / 2) 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .auth__description {
+    padding: 51px 0 81px;
+  }
+
+  .auth__login {
+    font-size: 12px;
+  }
+
+  .auth__login-link {
+    font-size: 12px;
+  }
+
+  .auth__signin {
+    padding-top: 14px;
+  }
+}
